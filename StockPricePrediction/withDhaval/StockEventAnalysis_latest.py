@@ -8,7 +8,7 @@ df_main.columns = ['Symbol', 'date', 'hr:min', 'open', 'high', 'low', 'close', '
 
 df = df_main.copy(deep = True)
 
-STOCK_SYMBOL = 'ASHOKLEY'
+STOCK_SYMBOL = 'ACC'
 
 df = df[df['Symbol'] == STOCK_SYMBOL]
 
@@ -173,7 +173,7 @@ for dt in result_date_lst:
     date_7_days_After = d + timedelta(days=7)
     result_date_lst_7days_After.append(date_7_days_After)
     
-    date_14_days_After = d + timedelta(days=7)
+    date_14_days_After = d + timedelta(days=14)
     result_date_lst_14days_After.append(date_14_days_After)
 
 print(result_date_lst)
@@ -331,7 +331,7 @@ for d in result_date_lst_7days_Ago:
     rows = cur.fetchall()
     for row in rows:
         #print(row[1])
-        close_price = row[1]
+        volume = row[1]
         #print(close_price)
         volume_result_date_lst_7days_Ago.append(int(volume))
     #print(type(row))
@@ -355,7 +355,7 @@ for d in result_date_lst_14days_Ago:
     rows = cur.fetchall()
     for row in rows:
         #print(row[1])
-        close_price = row[1]
+        volume = row[1]
         #print(close_price)
         volume_result_date_lst_14days_Ago.append(int(volume))
     #print(type(row))
@@ -379,7 +379,7 @@ for d in result_date_lst_7days_After:
     rows = cur.fetchall()
     for row in rows:
         #print(row[1])
-        close_price = row[1]
+        volume = row[1]
         #print(close_price)
         volume_result_date_lst_7days_After.append(int(volume))
     #print(type(row))
@@ -403,7 +403,7 @@ for d in result_date_lst_14days_After:
     rows = cur.fetchall()
     for row in rows:
         #print(row[1])
-        close_price = row[1]
+        volume = row[1]
         #print(close_price)
         volume_result_date_lst_14days_After.append(int(volume))
     #print(type(row))
@@ -415,10 +415,15 @@ print(volume_result_date_lst_14days_After)
 conn.close()
 
 #create dataframe and store the lists created above
-
-df_result_date_anlys = pd.DataFrame({'CP_ResultDate':close_price_result_date_lst})
-df_result_date_anlys['Symbol'] = STOCK_SYMBOL
+df_result_date_anlys = pd.DataFrame()
+#df_result_date_anlys = pd.DataFrame({'CP_ResultDate':close_price_result_date_lst})
 df_result_date_anlys['ResultDate'] = pd.Series(result_date_lst)
+df_result_date_anlys['Symbol'] = STOCK_SYMBOL
+df_result_date_anlys['CP_ResultDate'] = pd.Series(close_price_result_date_lst)
+df_result_date_anlys['ResultDate_7daysAgo'] = pd.Series(result_date_lst_7days_Ago)
+df_result_date_anlys['ResultDate_14daysAgo'] = pd.Series(result_date_lst_14days_Ago)
+df_result_date_anlys['ResultDate_7daysAfter'] = pd.Series(result_date_lst_7days_After)
+df_result_date_anlys['ResultDate_14daysAfter'] = pd.Series(result_date_lst_14days_After)
 df_result_date_anlys['CP_ResultDate_7DaysAgo'] = pd.Series(close_price_result_date_lst_7days_Ago)
 df_result_date_anlys['CP_ResultDate_14DaysAgo'] = pd.Series(close_price_result_date_lst_14days_Ago)
 df_result_date_anlys['CP_ResultDate_7DaysAfter'] = pd.Series(close_price_result_date_lst_7days_After)
@@ -429,6 +434,9 @@ df_result_date_anlys['Volume_ResultDate_7DaysAgo'] = pd.Series(volume_result_dat
 df_result_date_anlys['Volume_ResultDate_14DaysAgo'] = pd.Series(volume_result_date_lst_14days_Ago)
 df_result_date_anlys['Volume_ResultDate_7DaysAfter'] = pd.Series(volume_result_date_lst_7days_After)
 df_result_date_anlys['Volume_ResultDate_14DaysAfter'] = pd.Series(volume_result_date_lst_14days_After)
+
+#delete record if ResultDate is null
+df_result_date_anlys = df_result_date_anlys.dropna(axis=0, subset=['CP_ResultDate'])
 #df_result_date_anlys['ClosePrice'] = close_price_result_date_lst
 #check if the file already exists with data
 csv_filename = "C:\\DataSets\\StockAnalysis\\dhaval\\df_result_date_anlys.csv"
