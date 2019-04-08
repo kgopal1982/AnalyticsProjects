@@ -193,6 +193,28 @@ def df_manage(df,STOCK_SYMBOL):
         #print(type(row))
     print(close_price_result_date_lst)
     
+    
+    #store close price on the announcement date
+    close_price_boardmeeting_date_lst = []
+    
+    for dt in announce_date_lst:
+        d = parse (dt)
+        #print(d)
+        cur = conn.cursor()
+        #dt = unicode(d)
+        #print(d)
+        #cur.execute("SELECT * FROM daily_resampled_close_interpolated_df where date1 = '2017-01-02 00:00:00'")
+        cur.execute("SELECT * FROM daily_resampled_close_interpolated_df where date1=?", (d,))
+        rows = cur.fetchall()
+        for row in rows:
+            #print(row[1])
+            close_price = row[1]
+            print(close_price)
+            close_price_boardmeeting_date_lst.append(int(close_price))
+        #print(type(row))
+    print(announce_date_lst)
+    print(close_price_boardmeeting_date_lst)
+    
     #store close price 7 days before result date
     close_price_result_date_lst_7days_Ago = []
     
@@ -310,6 +332,47 @@ def df_manage(df,STOCK_SYMBOL):
     print(volume_result_date_lst)
     
     
+    #store volume on the result date
+    volume_result_date_lst = []
+    
+    
+    for dt in result_date_lst:
+        d = parse (dt)
+       # print(dt)
+        cur = conn.cursor()
+        #dt = unicode(d)
+        #print(d)
+        #cur.execute("SELECT * FROM daily_resampled_close_interpolated_df where date1 = '2017-01-02 00:00:00'")
+        cur.execute("SELECT * FROM daily_resampled_volume_interpolated_df where date1=?", (d,))
+        rows = cur.fetchall()
+        for row in rows:
+            #print(row[1])
+            volume = row[1]
+            #print(close_price)
+            volume_result_date_lst.append(int(volume))
+        #print(type(row))
+    print(volume_result_date_lst)
+    
+    #store volume on the announcement date
+    volume_boardmeeting_date_lst = []
+    
+    for dt in announce_date_lst:
+        d = parse (dt)
+        #print(d)
+        cur = conn.cursor()
+        #dt = unicode(d)
+        #print(d)
+        #cur.execute("SELECT * FROM daily_resampled_close_interpolated_df where date1 = '2017-01-02 00:00:00'")
+        cur.execute("SELECT * FROM daily_resampled_volume_interpolated_df where date1=?", (d,))
+        rows = cur.fetchall()
+        for row in rows:
+            #print(row[1])
+            volume = row[1]
+            print(volume)
+            volume_boardmeeting_date_lst.append(int(volume))
+        #print(type(row))
+    print(announce_date_lst)
+    print(volume_boardmeeting_date_lst)
     #store volume 7 days before result date
     volume_result_date_lst_7days_Ago = []
     
@@ -411,8 +474,10 @@ def df_manage(df,STOCK_SYMBOL):
     df_result_date_anlys = pd.DataFrame()
     #df_result_date_anlys = pd.DataFrame({'CP_ResultDate':close_price_result_date_lst})
     df_result_date_anlys['ResultDate'] = pd.Series(result_date_lst)
+    df_result_date_anlys['AnnouncementDate'] = pd.Series(announce_date_lst)#new
     df_result_date_anlys['Symbol'] = STOCK_SYMBOL
     df_result_date_anlys['CP_ResultDate'] = pd.Series(close_price_result_date_lst)
+    df_result_date_anlys['CP_AnnounceDate'] = pd.Series(close_price_boardmeeting_date_lst)#new
     df_result_date_anlys['ResultDate_7daysAgo'] = pd.Series(result_date_lst_7days_Ago)
     df_result_date_anlys['ResultDate_14daysAgo'] = pd.Series(result_date_lst_14days_Ago)
     df_result_date_anlys['ResultDate_7daysAfter'] = pd.Series(result_date_lst_7days_After)
@@ -421,8 +486,10 @@ def df_manage(df,STOCK_SYMBOL):
     df_result_date_anlys['CP_ResultDate_14DaysAgo'] = pd.Series(close_price_result_date_lst_14days_Ago)
     df_result_date_anlys['CP_ResultDate_7DaysAfter'] = pd.Series(close_price_result_date_lst_7days_After)
     df_result_date_anlys['CP_ResultDate_14DaysAfter'] = pd.Series(close_price_result_date_lst_14days_After)
+    df_result_date_anlys['CP_ResultDate_14DaysAfter'] = pd.Series(close_price_result_date_lst_14days_After)
     
     df_result_date_anlys['Volume_ResultDate'] = pd.Series(volume_result_date_lst)
+    df_result_date_anlys['Volume_AnnounceDate'] = pd.Series(volume_boardmeeting_date_lst)#new
     df_result_date_anlys['Volume_ResultDate_7DaysAgo'] = pd.Series(volume_result_date_lst_7days_Ago)
     df_result_date_anlys['Volume_ResultDate_14DaysAgo'] = pd.Series(volume_result_date_lst_14days_Ago)
     df_result_date_anlys['Volume_ResultDate_7DaysAfter'] = pd.Series(volume_result_date_lst_7days_After)
@@ -442,92 +509,96 @@ def df_manage(df,STOCK_SYMBOL):
         print("file is created")
     #df_result_date_anlys.to_csv("C:\\DataSets\\StockAnalysis\\dhaval\\df_result_date_anlys.csv")
     
-    #plotting for 2017 and 2018 combined
-    fig, ax = plt.subplots(figsize = (20,10))
-    #plt.figure(figsize=(20,10))
-    daily_resampled_close_interpolated.plot()
-    #i = pd.Timestamp('2017-05-10')
-    for i in result_date:
-        d1 = pd.Timestamp(i)
-        #print(d)
-        plt.axvline(d1,color='r')
-        #plt.xlabel(d)
-    #plt.axvline(pd.Timestamp('2017-05-10'),color='r')
-    for j in announce_date:
-        d2 = pd.Timestamp(j)
-        #print(d)
-        plt.axvline(d2,color='g')
-        #plt.xlabel(d)
-    plt.title(STOCK_SYMBOL)
-    plt.xlabel("Date")
-    plt.ylabel("ClosePrice")
-    plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.2,announce_date_lst, horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.4,result_date_lst, horizontalalignment='center', fontsize=12)
-    ax.legend()
-    plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2017_2018.jpg",bbox_inches = "tight")
-    
-    #separate 2017 and 2018 records
-    daily_resampled_close_interpolated_2017 = daily_resampled_close_interpolated['2017']
-    daily_resampled_close_interpolated_2018 = daily_resampled_close_interpolated['2018']
-    
-    #2017 plotting
-    fig, ax = plt.subplots(figsize = (20,10))
-    #plt.figure(figsize=(20,10))
-    daily_resampled_close_interpolated_2017.plot()
-    #i = pd.Timestamp('2017-05-10')
-    for i in result_date:
-        d1 = pd.Timestamp(i)
-        #print(d)
-        plt.axvline(d1,color='r')
-        #plt.xlabel(d)
-    for j in announce_date:
-        d2 = pd.Timestamp(j)
-        #print(d)
-        plt.axvline(d2,color='g')
-        #plt.xlabel(d)
-    title = STOCK_SYMBOL + '2017'
-    plt.title(title)
-    plt.xlabel("Date")
-    plt.ylabel("ClosePrice")
-    plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.2,announce_date_lst_2017, horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.4,result_date_lst_2017, horizontalalignment='center', fontsize=12)
-    ax.legend()
-    #plt.show();
-    plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2017.jpg",bbox_inches = "tight")
-    print("2017 plot is saved")
-    
-    
-    #2018 plotting
-    fig, ax = plt.subplots(figsize = (20,10))
-    #plt.figure(figsize=(20,10))
-    daily_resampled_close_interpolated_2018.plot()
-    #i = pd.Timestamp('2017-05-10')
-    for i in result_date:
-        d1 = pd.Timestamp(i)
-        #print(d)
-        plt.axvline(d1,color='r')
-        #plt.xlabel(d)
-    for j in announce_date:
-        d2 = pd.Timestamp(j)
-        #print(d)
-        plt.axvline(d2,color='g')
-        #plt.xlabel(d)
-    title = STOCK_SYMBOL + '2018'
-    plt.title(title)
-    plt.xlabel("Date")
-    plt.ylabel("ClosePrice")
-    plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.2,announce_date_lst_2018, horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
-    plt.figtext(0.5, -0.4,result_date_lst_2018, horizontalalignment='center', fontsize=12)
-    ax.legend()
-    #plt.show();
-    plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2018.jpg",bbox_inches = "tight")
-    print("2018 plot is saved")
+    #already generated, hence commented
+# =============================================================================
+#     
+#     #plotting for 2017 and 2018 combined
+#     fig, ax = plt.subplots(figsize = (20,10))
+#     #plt.figure(figsize=(20,10))
+#     daily_resampled_close_interpolated.plot()
+#     #i = pd.Timestamp('2017-05-10')
+#     for i in result_date:
+#         d1 = pd.Timestamp(i)
+#         #print(d)
+#         plt.axvline(d1,color='r')
+#         #plt.xlabel(d)
+#     #plt.axvline(pd.Timestamp('2017-05-10'),color='r')
+#     for j in announce_date:
+#         d2 = pd.Timestamp(j)
+#         #print(d)
+#         plt.axvline(d2,color='g')
+#         #plt.xlabel(d)
+#     plt.title(STOCK_SYMBOL)
+#     plt.xlabel("Date")
+#     plt.ylabel("ClosePrice")
+#     plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.2,announce_date_lst, horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.4,result_date_lst, horizontalalignment='center', fontsize=12)
+#     ax.legend()
+#     plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2017_2018.jpg",bbox_inches = "tight")
+#     
+#     #separate 2017 and 2018 records
+#     daily_resampled_close_interpolated_2017 = daily_resampled_close_interpolated['2017']
+#     daily_resampled_close_interpolated_2018 = daily_resampled_close_interpolated['2018']
+#     
+#     #2017 plotting
+#     fig, ax = plt.subplots(figsize = (20,10))
+#     #plt.figure(figsize=(20,10))
+#     daily_resampled_close_interpolated_2017.plot()
+#     #i = pd.Timestamp('2017-05-10')
+#     for i in result_date:
+#         d1 = pd.Timestamp(i)
+#         #print(d)
+#         plt.axvline(d1,color='r')
+#         #plt.xlabel(d)
+#     for j in announce_date:
+#         d2 = pd.Timestamp(j)
+#         #print(d)
+#         plt.axvline(d2,color='g')
+#         #plt.xlabel(d)
+#     title = STOCK_SYMBOL + '2017'
+#     plt.title(title)
+#     plt.xlabel("Date")
+#     plt.ylabel("ClosePrice")
+#     plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.2,announce_date_lst_2017, horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.4,result_date_lst_2017, horizontalalignment='center', fontsize=12)
+#     ax.legend()
+#     #plt.show();
+#     plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2017.jpg",bbox_inches = "tight")
+#     print("2017 plot is saved")
+#     
+#     
+#     #2018 plotting
+#     fig, ax = plt.subplots(figsize = (20,10))
+#     #plt.figure(figsize=(20,10))
+#     daily_resampled_close_interpolated_2018.plot()
+#     #i = pd.Timestamp('2017-05-10')
+#     for i in result_date:
+#         d1 = pd.Timestamp(i)
+#         #print(d)
+#         plt.axvline(d1,color='r')
+#         #plt.xlabel(d)
+#     for j in announce_date:
+#         d2 = pd.Timestamp(j)
+#         #print(d)
+#         plt.axvline(d2,color='g')
+#         #plt.xlabel(d)
+#     title = STOCK_SYMBOL + '2018'
+#     plt.title(title)
+#     plt.xlabel("Date")
+#     plt.ylabel("ClosePrice")
+#     plt.figtext(0.5, -0.1,"Announcement Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.2,announce_date_lst_2018, horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.3,"Result Date is", horizontalalignment='center', fontsize=12)
+#     plt.figtext(0.5, -0.4,result_date_lst_2018, horizontalalignment='center', fontsize=12)
+#     ax.legend()
+#     #plt.show();
+#     plt.savefig("C:\\datasets\\StockAnalysis\\dhaval\\ResultsSaveFigs\\" + STOCK_SYMBOL + "Result_2018.jpg",bbox_inches = "tight")
+#     print("2018 plot is saved")
+# =============================================================================
 
 if __name__ == "__main__":
     import pandas as pd
@@ -540,10 +611,10 @@ if __name__ == "__main__":
     
     df = df_main.copy(deep = True)
     #stock_lst = ['WOCKPHARMA','CNXENERGY','JINDALSTEL','INFRATEL']
-    stock_list_df = pd.read_csv("C:\\datasets\\StockAnalysis\\dhaval\\nifty50StockSymbols.csv")
+    stock_list_df = pd.read_csv("C:\\datasets\\StockAnalysis\\dhaval\\nifty48StockSymbols.csv")
     stock_list = stock_list_df['Symbol']
     #stock_list = stock_list[25:35]
-    stock_list = stock_list[35:51]
+    #stock_list = stock_list[35:51]
     for symbol in stock_list:
         print(symbol)
         df_manage(df,symbol)
