@@ -1,0 +1,1329 @@
+WIPRO
+
+Applying Thought
+
+“Wipro Technologies Limited Conference call”
+
+July 23, 2010
+2 PM IST
+
+Page 1 of 21WIPRO
+
+Applying Thought
+
+Moderator
+
+Rajendra Shreemal
+
+Azim Premji
+
+Wipro Technologies Limited
+July 23, 2010
+
+Ladies and gentlemen good morning, good afternoon, good evening and welcome to Wipro
+Technologies Limited Conference call. As a reminder, for the duration of this conference, all
+participants’ line will be in the listen-only mode. Please note this conference is being recorded.
+After the presentation, there will an opportunity for you to ask questions. Should anyone need
+
+663099
+
+assistance during the conference call, they may signal an operator by pressing and then 0 on
+their touchtone telephone. At this time, I would like to turn the conference over to Mr. Rajendra
+
+Shreemal. Thank you and over to Sir.
+
+Thanks Melissa and thanks every one else for joining us today. Very good afternoon to all the
+people who are going to join from India as well as good day to all the peopl e joining us from
+
+across world.
+
+As the operator just mentioned, I am Rajendra Shreemal, I head the Investor Relations along
+with Rishad and Aravind in Bangalore and Sridhar in US. We handle the investor interface for
+
+Wipro. We thank you for your interest in Wipro. It is a great pleasure I take the opportunity to
+welcome you all to this conference call post our results for the fiscal quarter ended June 30"
+
+2010.
+
+We will begin with a short address from Mr. Azim Premji, Chairman , followed by the financial
+highlights and operational highlights from Suresh Senapaty, CFO and followed by the question
+and answer session with the management team. We have Girish as well as Suresh Vaswami, Joint
+
+CEOs and other senior leadership team of Wip ro.
+
+Before Mr. Premji starts his address, let me draw your attention to the fact that during the call we
+
+might make certain forward looking statements within the meaning of the Private Securities
+Litigation Reform Act of 1995. These statements are based on management’s current
+expectations and are associated with uncertainty and risks, which could cause the actual results
+to differ materially from those expected . These uncertainties and risk factors have been explained
+in detail in our filings with the Securities Exchange Commission of USA. Wipro does not
+undertake any obligations to update forward -looking statements to reflect events or
+circumstances after the date of filing thereon. This conference call will be archived and a
+
+transcript would be available at www.wipro.com.
+Let me now handover to Mr. Azim Premji — Chairman, Wipro.
+
+Good day to all of you. On an overall basis, we had another strong quarter with 16% year-onyear growth in revenue and industry leading growth in profit at 31% year-on-year growth on
+profit after tax. Despite the events in Greece and all the surrounds that went with it, we are
+
+seeing a strong demand environment across all different business segments.
+
+Page 2 of 21WIPRO
+
+Applying Thought
+
+Wipro Technologies Limited
+July 23, 2010
+
+Let us focus for the moment on the IT business — Another good quarter where we beat the top
+end of our guidance in constant currency terms with a sequential growth of 4.4%. We have had
+
+the highest increase in our net billable headcount ever in this quarter.
+
+BFSI, CMSP, Manufacturing and RCTG led growth for us among the verticals. Product
+Engineering Services, Package Implementation and ADM led growth among the horizontals.
+India & Middle East, and APAC continue s to see strong growth, with US also seeing a n uptick
+
+this quarter. Europe grew at 3.4% at constant currency basis and 20.8% year-on-year.
+
+We have seen yet another quarter of margin expansion. Margins have increased by 30 basis
+
+points to 24.5% despite headwinds of wage increase and decline in our price realization. Margins
+have expanded by 2 .4% year-on-year. We took over the data center in Germany from Citi, which
+will enable us to offer a full portfolio infrastructure management solution to our European
+
+clients.
+
+We continue to uncompromisingly invest in our business for the future, example, technology
+themes with particular focus on Green and Cloud of Horizon-2 and Horizon -3 themes driving
+productized solutions across horizontal s and verticals. Non-linearity which today is 10% of our
+revenue and we are targeting 14% of our revenues in the current financial year , strong consulting
+
+and systems integration, transformational capability, and investments in sales and consultancy.
+
+We remain committed to driving globalization and localization in our t eams. We continue to
+scale up our delivery center across the globe. We have crossed the 500 persons mark in China
+this quarter. We continue to localize our teams overseas. Our aim is to increase the percentage
+
+of locals in our workforce overseas to 50% in the next two years. As of Quarter 1, it was ~38%.
+
+Let me go on to our consumer business — Santoor, #3 brand in India remains the main driver of
+our India household business which we continue to diversify in this segment with strong gr owth
+across Glucovita, a healthcare drink, diapers, and CFLs. In our international business, we
+continue to grow driven by markets like China, Malaysia , and the Middle East. Commercial
+business has seen significant pickup though not back to peak levels yet. Yardley is fully
+
+integrated and is tracking ahead of plan in terms of our acquisition.
+
+Wipro Infrastructure Engineering — The business environment has seen a significant rebound. In
+Europe things are much better but far from being great. We are back to 55% to 60% of peak
+
+level. In India we are back to about 90% of peak levels.
+
+Eco energy — We continue to believe that this can be a hit business in the future and the not to
+distant future. A huge area of growth is in the energy managed space services. We have already
+won two deals in this. Our confidence in our business model has increased significantly validated
+
+by the market and by our wins.
+
+Page 3 of 21WIPRO
+
+Applying Thought
+
+Suresh Senapaty
+
+Wipro Technologies Limited
+July 23, 2010
+
+I now hand over the mike to Suresh Senapaty, our CFO and Director , to give some financial
+
+headlines and highlights of the quarter.
+
+A very good day ladies and gentlemen. Before I delve into our financials please also note that for
+the convenience of readers our IFRS financial statement has been translated into dollars at the
+noon buying rates in New York City on June 30, 2010, for cable transfers in Indian rupees, as
+
+certified by the Federal Reserve Board of New York, which was $1 equals to Rs.4 6.41.
+
+Accordingly, the revenues of our IT Services segment that was $1,204 million or in rupee terms
+Rs. 55 billion, appears in our earnings release as $1185 million based on the convenience
+translation. Our IT Services revenue for the quarter ending June 30 was $1204 million on a
+reported basis, a sequential growth of 3. 2% and a year-on-year growth of 16.6%. On a constant
+currency basis, our IT Services revenue was $1218 million, a sequential growth of 4.4% and a
+
+YOY growth of 16.6%.
+
+We have had a good quarter for growth driven by specifics verticals and service lines. Among
+the verticals, BFSI has led the growth with 6.4%, CMSP, service provider with 6.4%,
+manufacturing with 5.5% and retail and transportation by 5.1%. Telecom and Technology
+verticals posted the third successive quarter of sequential growth . Package implementation and
+Product Engineering Solutions has driven growth in the quarter 9.7% and 18.5% growth
+
+respectively.
+
+Among the geographies—US has seen an uptick with 4.3% sequential growth rate. Our
+investment in emerging markets are continuing to pay off with strong growth in India and
+
+Middle East business and APAC and other emerging markets of 5.4% and 5.6% respectively.
+Despite the turbulent economic environment, Europe continues to be a growth ma rket for us with
+
+constant currency sequential growth of 3. 4% in quarter ending June 2010.
+
+We have 100 customers with revenue greater than $10 million. We saw another quarter of strong
+volume growth of 4.7%, the third successive quarter of 4% plus sequentia 1 growth rate in
+volume. Onsite Pricing drop in current quarter by 4.9% in constant currency, change in
+geography mix, and investment in project start. Our proportion of revenue from fixed price
+
+projects increased by 30 basis points to 44.6% in the quarter.
+
+We have executed well on operations and have been able to expand margins by 30 basis points
+despite headwinds of salary increase etc. As on 30" of June, 2010, our days of sales outstanding
+for Wipro technologies was at 65 days driven by increase in unbi Iled revenues. 78% of our
+
+debtors are less than 30 days and less than 1% of the debtors are for more than 180 days.
+
+Our IT products business showed a year-on-year growth of 13% in revenue in the quarter. We
+
+grew operating profit by 29%. Wipro Consumer Care and Lighting business continued to see
+
+Page 4 of 21WIPRO
+
+Applying Thought
+
+Moderator
+
+Harit Shah
+
+Suresh Vaswani
+
+Harit Shah
+
+Suresh Vaswani
+Harit Shah
+
+Suresh Vaswani
+
+Wipro Technologies Limited
+July 23, 2010
+
+good momentum of revenue growth with a revenue growth of 23% year-on-year and an
+operating profit growth of 11% on year-on-year basis. On the Foreign exchange front, our
+realized rate for the quarter was 45. 69 versus a rate of 45.11 realized for the quarter ended March
+2010. On a quarter-on-quarter basis, FOREX gave us a positive impact to margins including t he
+impact of cross-currency of 60 basis points. As at period end, we had about $1.6 billion of Forex
+contracts. Our net cash balance on the balance sheet was Rs. 49 billion generated a free cash flow
+
+of Rs. 6 billion during the quarter. We'll now be glad to take questions .
+
+Thank you. Ladies and gentlemen, we will now begin with the question and answer sess ion. Our
+
+first question is from line of Harit Shah from Karvy Stock Broking. Please go ahead.
+
+Yeah thanks for taking my question. Congratulations on a good set of numbers sir. I just wanted
+to get a sense that in this quarter we saw a good g rowth in package implementation. So c ould
+you give some sense of whether or not discretionary spending is on an increase definitely one of
+your peers has referred to alluded to this fact, so are you seeing the same kind of trends in this
+
+particular space?
+
+Yes the package implementation has seen extremely good growth this quarter , around 9.7%.
+Clearly we are seeing discretionary spending picking up in this space . There is a pent-up demand
+for upgrades in this sector, so are seeing a lot of upgrade type of business in this sector. The
+significant investments are also happening in social computing solutions, CRM solutions, and
+sustainability solutions as well as Cloud applications like CRM. So net-net, discretionary
+spending is happening in this sector and we see a very strong outlook for this business line in
+
+context of our business.
+
+Sure, sir, I just need a color on the kind of the business that you are seeing and increase in
+
+demand for these particular services going for ward?
+Are you speaking about specifically package implementation?
+Yeah that’s correct.
+
+See manufacturing is for one a very big segment for package implementation. We are seeing
+strong demand also in the retail sector, in the CPG sector, in the energy and utility sector, also in
+the health care sector. And frankly we are also beginning to see demand pick up as it relates to
+specifically CRM type of applications in the banking sector as well . So it is broad based, but yes
+to the preponderance surrounds the retail CPG, energy and utilities and the manufacturing
+
+sectors.
+
+Page 5 of 21WIPRO
+
+Applying Thought
+
+Harit Shah
+
+Suresh Vaswani
+
+Sambuddha Deb
+
+Harit Shah
+
+Sambuddha Deb
+
+Harti Shah
+
+Moderator
+
+Vihang Naik
+
+Manish Dugar
+
+Wipro Technologies Limited
+July 23, 2010
+
+Thank you, that’s very helpful. And just an other query, you have mentioned that I think non linear growth revenues are at around let us say 10% of the revenues, can you give us some sense
+
+of the business initiatives that you are taking?
+
+So I will ask my colleague, Mr. Sambuddha Deb who is our Chief Deliver Officer to address
+this.
+
+Hi there. There are primarily four broad initiative s that we take, one is from delivery side which
+we look at what we called Shared Services Model that is delivery model which ensures that
+while you can add more work into the system you do not have to add more headcount. The
+second is the earlier one where we talk about intellectual property where you have your own
+components which you put it in a license and hence increase the reuse dramatically. The third
+one which we have are platform-oriented services where you have a standard platform and you
+build up that, so this is very convenient when you have IT plus BPO type of stuff. And the fourth
+
+thing we are looking at is variabilization of a part of our workforce which ensures that our
+
+workforce doesn’t increase beyond the point.
+
+Okay fair enough sir. Can you give like any specific examples, in terms of platforms, what are
+
+you doing on that front, if you could do that?
+
+The major platform that we have is a platform called base in BPO, which allows youtorun inthe
+
+same security settlement on one unified platform.
+
+Okay, sir thank you, that was very helpful. I will come back if I have any further questions.
+Thank you sir.
+
+Thank you. The next question is from the line of Vihang Naik from MF Global. Please go ahead.
+
+Hi, congrats on decent quarter. I was just curious about, you have done pretty good margin
+management, I was just curious if you could just throw some light on how much the headwinds
+
+and the tailwinds contribute d to the margins in this quarter?
+
+Very clearly we had benefits of good exchange rate management that we had held by decent spot
+rate and also our hedges were at a higher rate when the spots were down, so we were able to get
+benefits which offset the OCI impact that came in the quarter. And if you | ook at the net impact
+of dollar-INR and cross currency, we got 0.6% upside on margin s in QI over Q4. We also got
+benefits in terms of managing our bulge which is when we are hiring freshers, the average cost of
+people keep coming down. And like for example all the mat rices that you see are typically
+reflective of our performance on the IT business. But we have the India , Middle-East business
+and we have acquisitions like Infocrossing and the BPO business which are not necessarily
+
+reflected in these matrices. And as we had projected earlier, been able to get benefits of various
+
+Page 6 of 21WIPRO
+
+Applying Thought
+
+Vihang Naik
+
+Manish Dugar
+
+Vihang Naik
+
+Manish Dugar
+
+Vihang Naik
+
+Girish Paranjpe
+
+Wipro Technologies Limited
+July 23, 2010
+
+initiatives we have taken to improve those profitabilit ies. So a combination of all of this helped
+us overcome the impact of the full quarter impact of salary increase and also the negative impact
+of cross currency. Having said that, in Quarter 2 we do see the currency to be a headwind for us
+and we have taken various initiatives on the employee side, outside of the MSI or the salary
+increase we have given in February and that is in the nature of the stock units that we have given,
+the broad-banded progression that we did at junior levels which is covering almost 20,000
+employees. And a total of all of this adds up to more than a percentage of revenue, so the
+primary headwind getting into Quarter 2 is the impact that the currency will have which is the
+OCI impact that will hit the margins and the impact of the various increases and the expense that
+
+we have done on the people side.
+
+Right that was helpful. You know if you could just tell me what was the impact on margins fro m
+
+the pricing decline that you have seen in this quarter?
+
+So, on the constant currency basis we had the decline primarily on the onsite rate and slight ly on
+
+the offshore rate. And the margin impact because of all the rate movements is in the range of 1%.
+
+Right. I mean although we report the attrition on annualized basis at turn around 23%, I mean the
+shoot up in the attrition budget really ma kes us think about second salary hike during the year or
+
+how are we placed about it?
+
+Well at this point in time, we have had a salary increase in February and we are taking various
+initiatives on the people side as I have already articulated. And our last salary increase had an
+impact of 1.5% on margin and the initiative we are now taking is more than a percentage. So
+while we have not done a broad-based salary increase the intervention is quite significant,
+however, having said that we believe that we are not in a panic mode . We believe salary is not
+the only solution for people retention and that is reflective of some of the things that has
+happened in our peer group as well and we are taking a lot more action on the HR side whic h
+may not be reflected in financials to ensure that we create an environment where people want to
+
+stay with us.
+
+Okay. And I thought I heard you say that pricing decline particularly onsite was also due to fact
+that new projects were started ons ite, could you just share the nature of these projects and if most
+of the pricing decline that we had to see has come in this quarter and also some color on the
+
+pricing scenario you are seeing in the sector as such?
+
+So let me first talk about the pricing features. On a broad -based basis, I think there is more
+positivity than anything on the pricing front where we have had negotiations with clients , they
+have been reasonable and flexible and we have seen in many situations where actually we have
+been able to increase the pricing . If you ask me the broad business environment, there is more
+
+positivity on price increase upward s than anything else. So on a coupon prices basis, I would say
+
+Page 7 of 21WIPRO
+
+Applying Thought
+
+Vihang Naik
+
+Girish Paranjpe
+
+Vihang Naik
+Moderator
+
+Mitali Ghosh
+
+Suresh Vaswani
+
+Mitali Ghosh
+
+Wipro Technologies Limited
+July 23, 2010
+
+prices would tend to increase. The way we compute price realization is look at revenue divide by
+total billable headcount and there what happ ens, there is quarter-to-quarter movement which
+depends on how many new projects we have started and typically in a multi -quarter projects, the
+initial phase is around the k nowledge acquisition or transition which doesn’t get explicitly paid
+
+for. So as per accounting standards, we will not recognize revenue during that period, but efforts
+will be there to expend and as a result of which it may look that we have dipped realiza tion, but
+
+in reality, it does not reflect the underlying pricing environment.
+
+Right. And whatever those initial stages are about in knowledge acquisition and all , those are
+
+mostly done in this quarter as such .
+
+If you look at our volume growth last quarter , where we had the significant volume growth or a
+lot of that volume growth was about starting new projects that’s how volume growth takes place .
+When you have significant volume growth there is still a necessary condition tha t new projects
+will start then when you go and when new projects start, there is an initial phase where
+investments has to be made, so that’s what we are seeing. So if we continue to see strong volume
+
+growth quarter -after-quarter and it leads to many more projects starts, this thing could continue.
+Excellent, okay that was helpful thanks .
+The next question is from the line of Mitali Ghosh from Bank of America. Please go ahead.
+
+Good afternoon. First question, I just wanted to get a bit more color on the deals closed this
+quarter in terms of large deals and perhaps more than $50 million deals. And last time you had
+
+shared total contract value during the quarter, so just looking fo r those details.
+
+I can't be too specific on this, but just to give you a broad sense, I think it's been a good quarter
+from an order booking perspective as well . It has been a good quarter from the deal wins that we
+
+have had and some of that we brought up in the press release. We see the funnel that we are
+
+looking at today in Quarter 1, looking fairly strong. So getting into Quarter 2, the funnel looks
+fairly strong. The funnel is broad-based. It is not localized to any specific vertical, but if I have to
+
+single out some of the verticals where one sees a fairly strong demand outlook, it includes Retail
+and CPG where we see a strong outlook going forward. It includes Banking, Finance, and the
+BFSI segment of ours. It also includes Manufacturing, Energy & Utilities and Healthcare where
+we are investing heavily and where we are seeing a _ significant demand pickup as it relates to the
+following. Specifically on your question of the deal wins that we had this quarter, we have had 7
+
+large deals that we won this quarter. When I say large, the deal that is greater than $30 million.
+
+Okay that’s helpful. And just in terms of the project start this quarter that you had onsite, any
+color in terms of which services and verticals or is that broadly reflected I guess in the metrics
+
+that you shared.
+
+Page 8 of 21WIPRO
+
+Applying Thought
+
+Suresh Vaswani
+
+Mitali Ghosh
+
+Suresh Senapaty
+
+Mitali Ghosh
+
+Suresh Senapaty
+
+Mitali Ghosh
+
+Moderator
+
+Anurag Purohit
+
+Sambuddha Deb
+
+Anurag Purohit
+
+Sambuddha Deb
+
+Wipro Technologies Limited
+July 23, 2010
+
+I think it's broadly reflected in the metrics that you have seen, I mean as you have seen, our
+
+business has moved towards much more fixed price projects and this is not a gain very sectoral. It
+is broad-based and we have been winning quite a few fixed price projects so a lot of which have
+got initiated last quarter and which is why the specific investments that we ha d to make in those
+
+fixed price projects.
+
+Sir secondly on the margins, you mentioned some headwind next quarter, but last quarter if we
+recall, you were sort of comfortable with managing margins within a narrow band for the full
+
+year. I just wanted to check whether there was any change in that thinking?
+
+What we are saying Mitali is that we don’t give spe cific guidance, but in a medium -to-long term,
+these are margins which are sustainable, so quarter-to-quarter is not something we would like to
+
+guide there.
+Sure, sir for the full year, you would be comfortable?
+
+No, we are saying in a medium -to-long term, these are margins which are sustainable margins,
+what we are not even talking about the year because when you talk about a year it is always
+
+rolling for four quarters right.
+Okay thank you.
+
+Thank you. The next question is from the line of Anurag Purohit from Alchemy. Please go
+
+ahead.
+
+Good afternoon gentlemen and congratulations on good quarter. My question was regarding
+utilization, how difficult would be to maintain utilization at current levels when attrition is
+running in excess of 23% on annualized basis we should be considering that a lot of recruitment
+
+in coming quarters would be for freshers .
+
+Last year we invested a lot in rec rafting our supply chain, invested a lot in IS to ensure that we
+are able to do just-in-time hiring as well as just-in-time deployment. With that we see that the
+current levels being sustainable give or take 0.5% or 1% because some of them depend s on how
+we see the outlook coming. There is also a little bit of function of how we absorb freshers and
+
+you know freshers are little bunched in the second half of the year.
+
+Okay, but is my estimate correct that current number of amount of trainees wi Il be close to 3% in
+the system? And another question regarding the subcontracting expenses which has moved up
+
+material in this quarter, how should we look at the trend going forward?
+
+I think it will drop somewhat, the subcontracting would drop somewhat, the subcontracting
+
+onsite would drop, but in offshore we are actually variabilizing our workforce, so that will again
+
+Page 9 of 21WIPRO
+
+Applying Thought
+
+Anurag Purohit
+Moderator
+
+Pinku Pappan
+
+Suresh Vaswani
+
+Pinku Pappan
+
+Suresh Vaswani
+Suresh Senapaty
+
+Suresh Vaswani
+
+Pinku Pap pan
+
+Wipro Technologies Limited
+July 23, 2010
+
+come up as subcontracting, so I would g uess it will more or less remain where it is, but it in
+
+dollar terms it may reduce, but in headcount terms it won't.
+Okay thank you and all the best.
+Thank you. The next question is from the line of Pinku Pappan from Nomura. Please go ahead.
+
+Good afternoon and thanks for taking my question. First question is on your TIS service line, I
+was a bit surprised to see the kind of muted growth in this quarter considering that in the US
+there has been quite a bit of an explosio n of demand in terms of data surveys and hosting
+
+services, so what exactly the trends you are seeing there and what is outlook in the service line?
+
+The outlook is very very positive and it relates to our TIS and Infocrossing business. So I d id
+answer the question on what the funnel outlook was earlier, but if one was to look at the service
+line view of the funnel that we current have built up, a large proportion of the funnel is
+
+technology infrastructure services and the integrated propositio n that we offer with IFOX. What
+you are currently seeing is a muted growth in the quarter because you are | ooking at the
+sequential growth, year-on-year growth has been good, but more importantly I think the outlook
+and the funnel and the buildup that we have had and the proposition that we are able to deliver in
+the integrated proposition of the infrastructure and IFOX is enabling us to address and open up
+
+large deals in this segment.
+
+You also mentioned that you acquired a data center from Citibank, has that already been booked
+
+in your revenues for TIS in this particular quarter?
+No, it has not been booked from a revenue perspective.
+I mean it's just a takeover of the data center
+
+So it's not been booked from a revenue perspective, and it is a takeover of Citibank’s data center
+which will include for a period of time services which will include continuation of services that
+we provide to Citibank, so that is one. But you know the big story behind this really is we have
+had Infocrossing in the US so we have been very, very success ful in integrated deals that we won
+in the US. We have had data center presence in India, but so far we did not have data center
+presence in Europe. So this gives us that capacity that we need to address integrated deals in the
+European market so that is a big plus of this acquisition of the data center that we have done.
+And I did mention earlier but I am not too sure that I communicated adequately we are working
+
+on quite a few large deals in the TIS space, which are significant in terms of size.
+
+Okay. Do you see data center services getting commoditized as we go ahead? I mean how is the
+
+pricing trend there?
+
+Page 10 of 21WIPRO
+
+Applying Thought
+
+Suresh Vaswani
+
+Pinku Pappan
+
+Suresh Vaswani
+
+Pinku Pappan
+
+Girish Paranjpe
+
+Pinku Pappan
+
+Moderator
+
+Srivatsan Ramachandran
+
+Wipro Technologies Limited
+July 23, 2010
+
+If you are talking about the data center hosting type of business, yes it is a commodity business,
+but if you are really talking about the types of services that we offer, which is integrated
+managed data center services for customers that is not getting comm oditized, it is more end -toend, it needs differentiation. It needs a lot of specific unique infrastructure capability. It needs
+system integration capability, it needs virtualization capability and we have all of that as a part of
+
+the TIS proposition. So hosting, yes integrated managed data center services clubbed.
+
+I am sorry for pressing this but again just on the same topic, we see every offshore vendor
+talking about virtualization, managed data service, I mean the kind of services that you are
+talking about virtualization in Cloud, so do you see an environment there, is this also going to get
+
+commoditized?
+
+We are specifically speaking about Cloud, I think the whole theme of Cloud is evolving. We are
+very, very actively invest ing in the Cloud theme. It is one of our, I would say, big investment
+themes across our IT business. We have built up and _ we will continue to build up strong system
+integration capabilities around Clouds. We have actually built up strong system integration
+capability both around private Cloud and in terms of being able to integrate public Clouds and
+private Clouds in terms of total solutions for our customers. I think it's far away from
+commoditization the way you put it, just to give you a sense of some of the work that we are
+doing for customers. There is a fairly large customer for whom we are actually architec ting the
+Cloud strategy as it relates to their application, as it relates to their infrastructure where they are
+today, where they could be tomorrow, how they could leverage private Clouds and public Clouds
+to really create the next generation IT architect ure so to speak, so that’s the sort of work we are
+
+engaged in now.
+
+Okay. Thanks for clarifying that and just one more question, your offshore volume growth has
+not been so great and when you look at peers, actually they have had couple of ve ry strong
+
+quarters of offshore volume growth, so what exactly is the difference here ?
+
+I think we have won quite a few system integration deals and this means in the initial stages
+more richer are onsite presence because this is all about architecting, meeting the customer,
+putting the architecture in space, so it does need a lot of onsite presence in the initial parts of the
+
+project which is what you are seeing.
+Sure thanks a lot.
+
+Thank you. The next question is from the line of Srivatsan Ramachandran from Spark Capital.
+
+Please go ahead.
+
+I just wanted to get a sense on, product engineering has seen a substantial growth during the
+
+quarter, I just wanted to know which are the end markets in terms o f where you have seen the
+
+Page 11 of 21WIPRO
+
+Applying Thought
+
+Girish Paranjpe
+
+Srivatsan Ramachandran
+
+Manish Dugar
+
+Srivatsan Ramachandran
+
+Moderator
+
+Nitin Padmanabhan
+
+Manish Dugar
+
+Nitin Padmanabhan
+
+Wipro Technologies Limited
+July 23, 2010
+
+growth, is it any one-off projects that has come that has led to this growth or do you see kind of
+
+at least from an absolute number point of view kind of maintaining this kind of a number?
+
+You know Product engineering has had a phenomenal quarter, but it has two parts to it, one
+which is kind of sustainable long term basis, which is general pickup in the engineering services.
+Again driven to a large extent by the traditional markets that is engineering services, which is
+technology, semiconductor and so on and there is a strong cyclical upturn there in those markets
+and that should continue to remain strong for the rest of t his year as well. We are also making
+efforts to address other industry sectors whether it's healthcare, whether it is manufacturing,
+whether it is aerospace. So we are working strongly to diversify our engineering services sales
+set up. So this is a good news of secular visibility of growth in engineering services. However,
+this quarter there is a one timer which has kind of bumped up the sequential growth which is as
+high as 18% on a sequential basis, so it clearly is not something that’s going to get repeated
+there. But broadly speaking engineering services is clearly on an upswing and it's som _ ething that
+
+we could scale up.
+
+Okay. I just wanted understand impact of promotions and wage hike will affect on this quarter
+
+numbers or is it the only for a particular period?
+
+The salary increase that was given in Februa ry and the progressions that was done pre -July that
+is all already into the quarter one report. The July 1 * Restricted Stock Units and band split that
+we have done which is covering almost 20,000 employees are new interventions which has not
+
+got reflected in our quarter one financials.
+Okay thanks a lot, I will come back later.
+
+Thank you. The next question is from the line of Nitin Padmanabhan from Indiabulls Securities.
+
+Please go ahead.
+
+Yeah hi, thanks for taking my question. This was regard s to the margins if I can probe a little
+more. If you see over the past two quarters, I think as a percentage it has come down, it's
+probably just moved up by 5% despite adding maybe 14% -15% to the headcount, you ment ioned
+that you know quite a bit of the cost benefits came from the acquisitions Infocrossing and
+probably India and Middle East , could you just explain what is the nature of those and how much
+
+more of those takeouts are possible going forward?
+
+So let me first make sure I understand your question correctly. The margins actually have
+
+expanded in the last two quarters and I think that’s what you meant, right?
+
+The cost of revenues basically as a percentage come down, th e gross mar gin improved in fact?
+
+Page 12 of 21WIPRO
+
+Applying Thought
+
+Manish Dugar
+
+Nitin Padmanabhan
+
+Manish Dugar
+
+Nitin Padmanabhan
+
+Manish Dugar
+
+Nitin Padmanabhan
+
+Rajendra Shreemal
+
+Nitin Padmanabhan
+
+Moderator
+
+Wipro Technologies Limited
+July 23, 2010
+
+That’s right. So as I mentioned earlier, one we have had improvement in currency, but outside of
+currency the benefit has really been in the businesses which are outside of what gets reflected in
+the matrices and that inc ludes profitability of our BPO business that includes profitability of our
+Infocrossing Data Center business and we have seen uptick there. And we continue to drive
+higher capacity utilization, better utilization m etrices in the BPO business. And at this point in
+time, we are already at a significantly high capacity utilization in the Infocrossing business and
+we are acquiring data centers and we are creating new capacities. So, while there is an
+opportunity to continue driving margins there, but it's difficult to give a specific number in terms
+
+of what any of those businesses will give.
+
+Aright. Manish, if you could just go a little further, Infocrossing I think we were close to peak
+capacity, I think a quarter or two back and I think if you are adding more capacit ies ideally that
+should bring down profitability a bit, right? Is there a downward bias by any chance? Is there a
+
+headwind to this going forward?
+
+So typically Nitin, what happens is the sale cycle and the migration cycle in the Infocrossing
+business is quite long and as you rightly said in last to last quarter, we had already sold out our
+capacity while the migration of assets from the customer to our data centers would probably not
+have happened even now and as we create capacity, there will be cost addition to our
+Infocrossing business. So you ’re right that there probably would be a headwind to margins for a
+
+couple of quarters to come as we start ramping up and seeing better uti lization of capacity.
+Okay same would be the case for BPO as well?
+
+BPO unlike in Infocrossing does not have step cost s and does not have capacity addition and
+hence margin impact quarter -on-quarter and it may not give us significant movement from where
+
+we are today.
+
+Sure, sir, just one last thing on the hedges, you mentioned that this time we had some sort of a
+gain due to favorable hedges for the quarter, it may not be sustainable for the next quarter, if you
+
+could just throw some light on that?
+
+With respect to the forex, this particular quarter we had a hedge book which gave us a better rate
+realization and what you see in the next quarter is that we have taken certain long term hedges
+which matured in the next quarter and those hedges were at a lower rate. Hence overall rate
+realization will drop a bit. So that is what Manish was meaning when he said that you will some
+
+forex headwinds.
+Sir, thank you.
+
+The next question is from the line of R Ravi from Daiwa Capital Markets . Please go ahead.
+
+Page 13 of 21WIPRO
+
+Applying Thought
+
+R Ravi
+Girish Paranjpe
+
+R Ravi
+
+Suresh Senapaty
+
+R Ravi
+
+Moderator
+
+Dipesh Mehta
+
+Manish Dugar
+
+Suresh Vaswani
+
+Wipro Technologies Limited
+July 23, 2010
+
+Hi, I have one question, can we have the breakup of the capital employed by each businesses?
+Ravi, it is there is in the segment report.
+
+No, I have checked out, what I got was basically your revenues and PBIT, but I don’t think I
+have the breakup of capital employed.
+
+So capital employed if you look at IT services and product, it's Rs. 129059 million, Consumer
+
+care and lighting Rs. 20877 million, others Rs. 119044 million.
+Okay thanks.
+
+Thank you. The next question is from the line of Deepesh Mehta from Khandwala Securities.
+
+Please go ahead.
+
+Just stretching on our margin performance, I just wanted to know whether there is any kind of
+one-off what we don’t ex pect to recur in Q2? Second question is about our BPO business, it
+shows some kind of sluggishness, so your comment about performance going forward. And last
+is about our employee hiring plan for full year considering higher attritio nas well as we see good
+
+demand. Thanks.
+
+So your question specifically on, are there any one time benefits that we got in Q1 which we
+don’t expect to recur from our operating margin perspective. See you may consider this one time, you may consider this a recurring phenomenon because when you are doing fixed price
+business and you have cyclicality in revenue, which is what got reflected last quarter and this
+quarter if you have seen as we commented last quarter that our revenues are low because fixed
+price projects have this nature of revenues which are linked to either transition or milestone and
+this quarter we have had upside. So that kind of one -timer we have, however if we have to say
+that there is something which is one -time and real one-time I don’t think there is anything like
+
+that.
+
+Specifically addressing your BPO question, yes this year the sequential growth has been
+sluggish-to-negative. If you really look at it from a year-on-year basis, it's 15.5% growth. I think
+more importantly this was related to some project closures that we had in Quarter 4 and some
+one-timers that were accrued in Quarter 4. But going forward, the outlook of the business is
+fairly positive, the decisions are happening faster. We have made good progress in lots of
+pursuits a large part of the funnel that we spoke about earlier have BPO and as much as I spoke
+about TIS earlier. And we are seeing interest in integrated IT and BPO opportunities emerging in
+
+the market and some we are creating. The transaction processing part of our business today now
+accounts for as much as 55% of the total BPO business. So we have go t scale there and we have
+
+got good width and robustness as it relates to horizontal processes. What w e are going to do
+
+Page 14 of 21WIPRO
+
+Applying Thought
+
+Sambuddha Deb
+
+Dipesh Mehta
+
+Rajendra Shreemal
+
+Dipesh Mehta
+
+Rajendra Shreemal
+
+Dipesh Mehta
+
+Rajendra Shreemal
+Deepesh Mehta
+Moderator
+
+Rahul Jain
+
+Suresh Senapaty
+
+Rahul Jain
+Suresh Senapaty
+
+Rahul Jain
+
+Wipro Technologies Limited
+July 23, 2010
+
+going forward more aggressively on our BPO business is build up a lot more unique vertical
+processes in the different industry segments. So all in all we do believe that BPO will be one of
+the significant growth driver for us going forwar d and a differentiator in the market for us in
+terms of the integrated BPO IT proposition s that we can get to the market. I didn’t get your third
+
+question.
+
+On the hiring front, we have ramped up the engines and actually we have taken into account both
+the attrition as well as future demand and we think that we are there for that. We don’t see any
+
+shortfall in talent because of our hiring and _ not hiring.
+But can you share some numbers, how much we are planning to hire at gross or net level?
+
+We don’t share the gross headcount which you normally hear. What we do share is the net
+headcount add and if you look for the last three quart ers, we have had 15,000 people and this
+quarter we added 4854.
+
+Sir, can you share the | ateral employees out of 15000 odd what we had had in last three quarters?
+
+A reasonable mix with lateral, so we don’t give specific numbers between the lateral and rookies
+
+per se.
+
+When we say reasonable, that is above trend or that is more or less what we have seen in last five
+
+years average?
+
+So what I meant here is that take for example, if you are over 50%, it would be lateral side.
+Okay thanks.
+
+Thank you. The next question is from the line of Rahul Jain from Dolat Capital. Please go ahead.
+My question is can you explain movement in the tax rate in the quarter?
+
+Tax rate for the quarter was about 15% which is after the write back for the March period based
+on some assessment closure and so if you look at a normalized rate, it would be about 2 % points
+
+higher. At average which would be similar to the average of last year.
+Okay. So that is what we are expecting for the rest of the year?
+Well it will be within the 2% range.
+
+Okay and another thing is on the health care side, we have seen a reasonable drop in the particular
+
+quarter, is it aberration or something we are looking into that?
+
+Page 15 of 21WIPRO
+
+Applying Thought
+
+Suresh Vaswani
+
+Rahul Jain
+
+Girish Paranjpe
+
+Rahul Jain
+
+Girish Paranj pe
+
+Rahul Jain
+
+Moderator
+
+Sandeep Shah
+
+Suresh Senapaty
+
+Wipro Technologies Limited
+July 23, 2010
+
+It is because of certain project closures and one-time heavily accruals that we got in Q4. It is a
+quarter aberration. If you also look at it from year-on-year perspective the growth is actually
+25%, which is fairly solid growth. Like I mentioned earlier, we are investing in the healthcare
+business, we are trading some strong industry solutions in the new generation areas of ICD 9 -10
+electronic medical records and healthcare information exchanges and all these are new
+opportunities that are coming up in the US. So it is an area of major investment for us. We do see
+
+healthcare to be one of o ur high growth verticals going forward.
+
+And sir just to understand what could be the possibility because you know we are seeing attrition
+level going up for all the players, all across we are seeing a hike in the salary cost, so are we
+likely to see increase in the terms of the attrition rates or increasing in the terms of bench so that
+
+we address that issue?
+
+As you said rightly the industry attrition has gone up and the same has been for us and we have
+seen that it will take another couple of quarters for it to stabilize. We don’t see anything
+changing overnight from attrition perspective. And we have seen four or five levers to manage
+
+attrition, be it from a career standpoint or compensation standpoint or rotation. So we are + moving
+
+on all the levers to manage attrition and i t's not one which we will look at.
+Sir, that means we would be looking fora bigger bench for that sense?
+
+No as Deb had said earlier, but I would like to add. We manage the supply chain, people supply
+chain in a fashion where we have been able to manage a much linear bench and we are able to do
+
+hiring as well as managing attrition .
+Okay that’s it from my side, thanks a lot.
+Thank you. The next question is from the line of Sandeep Shah from ICICI. Please go ahead.
+
+This is just which relates to the cost of revenue, for the last three quarters, we have added on a
+net basis close to around 15,000 and one of your comments was also that close to around 50 % is
+through laterals. And we also had a wage inflation with effect from February, but if you look at
+the average cost of revenue per technical employee has been going down for last two quarter s
+versus for the peers that’s been going up. So does that mean that over and above from July
+onwards the RSU as well as the promotions there could be a wage inflation in the Q3 or in the
+
+Q4 also?
+See one is that when you talk about the laterals what Rajendra talked about it is linked to gross
+
+and not to net, because when there is attrition of an experienced person, it tends to be replaced
+
+with an experienced lateral. So therefore that was on the basis of gross and not the net.
+
+Page 16 of 21WIPRO
+
+Applying Thought
+
+Manish Dugar
+
+Sandeep Shah
+
+Girish Paranjpe
+
+Sandeep Shah
+Moderator
+
+Diviya Nagarajan
+
+Girish Paranjpe
+
+Wipro Technologies Limited
+July 23, 2010
+
+And just to supplement Sandeep to what Senapaty just mentioned o ther than the fact that if you
+were to look at net addition as rookies or as freshers as a percentage of net addition that number
+will be different from what Rajendra mentioned. The other points to note is that when the growth
+
+happens and volume adds are happening, if we are ona quarter-on-quarter basis adding freshers,
+more than that we had ad ded before, the average cost will keep going down. And the impact of
+salary increase is reflected in the people cost as a percentage going up to some extent it's also
+
+reflected due to the utilization drop, however , a significant portion of increase in peop le cost as a
+percentage of revenue is because of the salary increases that we have given. And typically this
+
+model is self regulating because as the growth comes back and we keep adding freshers the
+average cost will keep coming down and people cost as a percentage of revenue will get
+
+managed.
+
+Okay, sir this year also we will go back to our trend of giving wage hikes from August 
+September or this year maybe a different than the historic trends?
+
+The situation is fairly fluid and dynamic so we will have to respond to the situation for example,
+this quarter alone we have done a re-banding and created a brand new category of people 3-7
+years category and as a result of that we have promoted almost 20,000 people and there is a cost
+associated with that. So we will look at all the avenues by which we need to respond on the
+compensation side. So many of the traditional cycles may change, if you have done something
+now, we may push something out or we may bring something forward, so it's difficult to go by
+
+history in this kind of current situation.
+Okay thanks.
+Thank you. The next question is from the line of Diviya Nagarajan from UBS. Please go ahead.
+
+Hi, congrats on a good quarter. Just one question that I had was on the recruitment front. We
+have heard the company so far talk about ramping up on the lateral three to eight years so to
+speak and I think some of the numbers that we have heard from you is quite aggressive . In that
+context, how easy do you think it will be for you to recruit aggressive ly from the market given
+the kind of volume growth that you are looking at? And what impact do you foresee on
+
+incremental wage costs because of this?
+
+We have been able to hire fairly I would say strongly from the market when it comes to lateral
+
+hiring over the last two or three quarters from the time the market opened up. And given that the
+engine is ramped up, I really see no big challenge, I mean of course the re will be reasons why we
+will not be able to hire a particular category of people or not exactly meet our demands, but that
+will be at a periphery and not at the core. So at the core, I think we will be able to hir e the
+
+numbers that we wanted and the skil 1 sets that we want. And what you said is right that when you
+
+Page 17 of 21WIPRO
+
+Applying Thought
+
+Divya Nagarajan
+
+Moderator
+
+Shraddha Agarwal
+
+Girish Paranj pe
+
+Martha Bejar
+
+Shraddha Agarwal
+
+Girish Paranjpe
+
+Wipro Technologies Limited
+July 23, 2010
+
+hire laterally of course it kind of raises the bar on some stations and that’s what we have to kind
+
+of manage that typically between internal wage hikes and hiring people from the market.
+Right thanks.
+
+Thank you. The next question is from the line of Shraddha Agarwal from B&K Securities. Please
+go ahead.
+
+Hi sir, congrats on good quarter. Just one question, your top clients have grown quite strongly in
+this quarter, they have grown by some 20% on a sequential basis, so is this growth in any way
+
+related to the new project start that you were talking about?
+
+The top line growth which is really all the efforts that we have made in the past in building
+strong client relationship and investing in that accounts and we really expect that with other
+investments that we have made around client relationship, onsite pr ogram management and
+consulting, we will be able to continue to build stronger traction in some of our top clients. And
+may I request Martha who is here who is with Global Sales Organization to talk about
+
+investment and hopefully the returns.
+
+So let me just address that in pretty deeper sense and the area of focus for us over the past couple
+of years has been in really building a very strong best-in-class sales organization. The areas that
+we are investing in is for example are tools, which include account management and how we
+manage the opportunity and really g uiding into the core of what is our customer strategy and
+how we partner with them to help and shape that strategy. We are looking at ways which realign
+recognition and performance between the sales organization and what we do with delivery.
+Again just locking in fact how we manage our customers, how we motivate our own internal
+people to execute on our commitment. And then that goes hand in hand with training, training
+that is done very specifically towards the account management structure and what we expect
+from our sales organization in ensuring that we address our customers’ challenges. And I think it
+is a combination of all these three things, the alignment in the field, the focus that we have by
+market segments by verticals and by service lines that brings together a very good story for our
+customer hopefully. We will make them successful and will continue to grow along with the
+
+growth of our customers.
+
+Right, thanks. But then were they any specific service offerings which really drove this growth
+
+or was it a broad based growth for the top client?
+
+For the top client, actually we do work in all areas, we do work in application area, we do work
+in business infrastructure area and we do work in BPO areas. So we have the benefit of multiple
+
+service lines fairly propelling growth.
+
+Page 18 of 21WIPRO
+
+Applying Thought
+
+Shraddha Agarwal
+Girish Paranjpe
+Shraddha Agarwal
+Rajendra Shreemal
+Shraddha Agarwal
+
+Moderator
+
+Sashi Bhushan
+
+Manish Dugar
+
+Sashi Bhushan
+
+Manish Dugar
+
+Sashi Bhushan
+
+Manish Dugar
+
+Wipro Technologies Limited
+July 23, 2010
+
+Right so there were no one -off which...?
+
+No, no one off, It is just good news on the work.
+
+Right and secondly just one quick data point, what is the OCI balance as the quarter end?
+It was 618 crores Shraddha.
+
+Okay. Thanks Rajendra that’s it from me. Thank you.
+
+Thank you. The next question is from the line of Sashi Bhushan from Prabhudas Liladher. Please
+go ahead.
+
+Good afternoon thanks for taking my question. Can you please share the details on the take over
+of Citibank Data Center like what is the consideration that w e paid for that and what is the
+current utilization? And in the current guidance what is the revenue we are taking from this
+
+account?
+
+Citibank Data Center acquisition is actually a combination of taking over and getting into a
+contract with the customer for a longer term relationship and it's a joint effort with Citi, I mean
+between Wipro and Citi to grow the data center business where we get support from Citi to get
+their data center piece of work for Europe and in return they get benefit of b etter management
+and lower cost. And at the same time we are able to leverage on having done it for one of the
+largest banks and do it for other European customers in Europe. So from a pure number
+perspective, the money outflow is not necessarily very significant, however the relationship and
+the contractual commitments by both parties to make it a success is what actually is something
+that needs to be kept in mind. But just to give you the number money that has been paid as cash
+
+upfront is 5 million euros.
+And what is the current utilization?
+
+So Citibank actually as a customer gives us quite significant utilization to begin with and almost
+75% plus of the capacity is being utilized by Citi right from day one. But there is a provision to
+keep growing that capacity as we go along and it would help us to partly get compensated by the
+growth in the Citi business and partly by getting new customers in. But it does not come with the
+challenges that typically you have when you are starting a new data center wherein the utilization
+
+is zero to begin with.
+Sure, and in the current guidance what is the revenue we are taking from this acquisition?
+
+We actually signed the deal on the 1 * of July and the work has beg un. So the number in this
+
+quarter may not be very significant.
+
+Page 19 of 21WIPRO
+
+Applying Thought
+
+Sashi Bhushan
+
+Manish Dugar
+
+Sashi Bhushan
+Suresh Senapaty
+
+Moderator
+
+Subhashni Gurmurthy
+
+Suresh Senapaty
+Manish Dugar
+Subhashni Gurmurthy
+
+Manish Dugar
+
+Subhashni Gurmurthy
+
+Moderator
+
+Rajendra Shreemal
+
+Wipro Technologies Limited
+July 23, 2010
+
+Okay, also your absolute and offshore revenue declined on quarter-to-quarter on absolute basis,
+was that due to some contract which is getting over and it is like quarterly aberration or is there
+
+any trend over?
+
+No, I think if we were to for a moment get away from offshore onsite and look at the macro
+picture of how the price moved and how the value moved or the volume moved, you would see
+that the volume growth was primarily onsite while the volume growth in offs hore was a little
+lower. And price decline that happened in offshore which was 1.3% was more than the volume
+growth that we got in offshore which kind of shows up as if there is a revenue decline, but
+effectively there is a 0.7% growth in volume in offshor e and getting negated by the 1.3% decline
+
+in price which is why it looks like a decline in offshore revenue.
+Okay sir thanks that’s all from my side and all the best for the next quarter.
+Thank you.
+
+Thank you. The next question is from the line of Subhashni Gurmurthy from Ambit Capital.
+
+Please go ahead.
+
+Hi thanks for taking my question, most of my questions have been answered, but I just want
+reconfirmation, the re-banding exercise which you mentioned which has resulted in promotions
+of 20,000, is the full impact already factored into this quarter or would it reflect in the next
+
+quarter?
+
+It will come in the current quarter.
+
+It will come in quarter two Subhashni.
+
+Okay sure. And the impact would be close to 1%, is that what you mentioned earlier?
+
+The impact of all the people related in interventions , which is stock units plus the re -banding
+
+exercise put together will be close to 1%.
+Okay sure. Thanks a lot, that’s all from my side.
+
+Thank you. Ladies and gentlemen due to time constraints that was the last question. I would now
+
+like to hand the floor back to Mr. Rajendra Shreemal for closing comments. Please go ahead sir.
+
+Thanks Melissa. We thank you all for participating in this call. Should you have missed anything
+during the call, the audio archive of this call will be available on our website and we would also
+be putting up a transcript of this call very soon. And of course should you have any clarification
+
+the investor relation team would be happy to talk to you. Have a wonderful evening. Thank you.
+
+Page 20 of 21WIPRO
+
+Applying Thought Wipro Technologies Limited
+July 23, 2010
+
+Moderator Thank you gentlemen of the management. Ladies and gentlemen on behalf of Wipr o
+
+Technologies Ltd. that concludes this conference call. Thank you for joining us.
+
+Page 21 of 21
