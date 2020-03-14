@@ -4,8 +4,8 @@ import re
 
 import os
 
-inputfilepath = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_pdf\\"
-wipro_output_file = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_pdf\\2009_Wipro_Director_Speech.csv"
+inputfilepath = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_healthHazard\\"
+output_file = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_healthHazard\\output_sentiment.csv"
 
 
 def process_text(inputfilepath, filename,wipro_output_file):
@@ -162,11 +162,11 @@ def process_text(inputfilepath, filename,wipro_output_file):
     plt.tight_layout()
     plt.show()
     
-    df.to_csv(wipro_output_file, mode='a')
+    df.to_csv(output_file, mode='a')
 
 
 for filename in os.listdir(inputfilepath):
     if filename.endswith(".txt"): 
          # print(os.path.join(directory, filename))
         print(filename)
-        process_text(inputfilepath, filename, wipro_output_file)
+        process_text(inputfilepath, filename, output_file)

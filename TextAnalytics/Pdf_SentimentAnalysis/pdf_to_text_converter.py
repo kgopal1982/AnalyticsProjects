@@ -8,7 +8,7 @@ import sys
 from pdf2image import convert_from_path 
 import os
 
-inputfilepath = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_pdf\\"
+inputfilepath = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\inputs_healthHazard\\"
 #outputfilepath = "C:\\Users\\ekrigos\\Desktop\\DataS\\REVA\\finalyearProj\\pdf_analysis\\outputs_text\\"
 
 
