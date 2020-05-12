@@ -64,8 +64,8 @@ for word in common_words_lst:
 print(len(df1_common_lst_word))
         
 df1_common_word = pd.DataFrame(list(zip(df1_common_lst_word, df1_common_lst_time_taken)),
-                               columns = ['Word', 'time_taken'])
-print(df1_common_word.head())
+                               columns = ['CommonWords', 'file1_time_taken'])
+print(df1_common_word.head(20))
 
 
 #create dataframe to store time taken for df2, based on words from df3
@@ -83,6 +83,18 @@ for word in common_words_lst:
 print(len(df2_common_lst_word))
         
 df2_common_word = pd.DataFrame(list(zip(df2_common_lst_word, df2_common_lst_time_taken)),
-                               columns = ['Common Words', 'time_taken'])
-print(df2_common_word.head(10))
+                               columns = ['CommonWords', 'file2_time_taken'])
+print(df2_common_word.head(20))
+
+#create combined dataframe for comparision
+
+series1 = df1_common_word['CommonWords']
+series2 = df1_common_word['file1_time_taken']
+series3 = df2_common_word['file2_time_taken']
+
+frame = {'CommonWords': series1, 'file1_time_taken': series2, 'file2_time_taken' : series3}
+
+final_df = pd.DataFrame(frame)
+final_df.head(20)
+
 
