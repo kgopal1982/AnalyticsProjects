@@ -13,6 +13,15 @@ from pocketsphinx import Pocketsphinx, get_model_path, get_data_path
 
 import pandas as pd
 
+#filename = 'What_is_Happiness_Sadhguru'
+filename = 'converted_What_is_Happiness_Sadhguru_imitate_1'
+filename_wav_extn = filename + '.wav'
+filename_sphinx = filename + "_" + "UsingPocketSphinx_Model" + '.txt'
+filename_output_segments = filename + '_output_segments' + '.txt'
+filename_output_segments = filename + '_output_segments' + '.txt'
+filename_output_segments_mod = filename + '_output_segments_modified' + '.txt'
+
+
 model_path = get_model_path()
 data_path = get_data_path()
 
@@ -26,9 +35,11 @@ config = {
 #place the .wav fie in the directory of data_path 
 # /home/krishna/anaconda3/lib/python3.7/site-packages/pocketsphinx/data
 
+
+
 ps = Pocketsphinx(**config)
 ps.decode(
-    audio_file=os.path.join(data_path, 'obama_farewell_speech.wav'),
+    audio_file=os.path.join(data_path, filename_wav_extn),
     buffer_size=2048,
     no_search=False,
     full_utt=False
@@ -38,21 +49,26 @@ ps.decode(
 
 #save the detailed segments of the words, 
 #which will contain details word, probablity, start_time and end_time
-print('Detailed segments:', *ps.segments(detailed=True), sep='\n')
+#print('Detailed segments:', *ps.segments(detailed=True), sep='\n')
 
-with open('output_segments_obama_farewell_speech.txt', 'a') as f:
+# with open('output_segments_obama_farewell_speech.txt', 'a') as f:
+#     print(*ps.segments(detailed=True), sep='\n', file=f)
+    
+with open(filename_output_segments, 'a') as f:
     print(*ps.segments(detailed=True), sep='\n', file=f)
     
 #convert from audio to text and save    
-# text = ps.hypothesis()
+text = ps.hypothesis()
 
-# file1 = open("Donald_Trumps_Victory_Speech_DeepSpeech_UsingPocketSphinx.txt","w")#write mode 
-# file1.write(text) 
-# file1.close() 
+
+file1 = open(filename_sphinx,"w")#write mode 
+file1.write(text) 
+file1.close() 
 
 #load into dataframe
 # For the above saved file, modify manually by removing '(',')',' and then save as modified fie
-df = pd.read_csv('output_segments_donaldTrump_modified.txt', sep=",", header=None)
+#df = pd.read_csv('output_segments_donaldTrump_modified.txt', sep=",", header=None)
+df = pd.read_csv(filename_output_segments_mod, sep=",", header=None)
 df.columns = ["word", "prob","startTime", "endTime"]
 df.head()
 #calculate time taken for each word
@@ -78,3 +94,6 @@ search_string=['<sil>','<s>','[SPEECH]']
 df_new = df[~df.word.isin(search_string)]
 
 df_new.head(30)
+
+df_file_name = filename + '_usingPhoenix_words_time' + '.csv'
+df_new.to_csv(df_file_name)

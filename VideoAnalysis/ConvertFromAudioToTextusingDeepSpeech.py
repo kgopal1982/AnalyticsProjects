@@ -42,44 +42,47 @@ model.enableDecoderWithLM(lm_file_path, trie_file_path, lm_alpha, lm_beta)
 
 
 import wave
-#filename = 'IMF_Georgieva_COVID-19.wav'
-#filename = 'obama_wh_last_speech.wav'
-filename = 'obama_farewell_speech.wav'
+#fileWithoutExtn = 'What_is_Happiness_Sadhguru'
+fileWithoutExtn = 'What_is_Happiness_Sadhguru_imitate_1'
+filename = fileWithoutExtn + ".wav"
 
 w = wave.open(filename, 'r')
 rate = w.getframerate()
 frames = w.getnframes()
 buffer = w.readframes(frames)
-print("sampling rate is")
+print("sampling rate of the input file is")
 print(rate)
 #16000
 print("Sampling rate of the model")
 print(model.sampleRate())
 #16000
 print("Buffer type of the file is")
-type(buffer)
+print(type(buffer))
 
 #<class 'bytes'>
 
 
 
 #run the below code if the sampling rate of the file is dfferent than 16000 Hz
-# new_filename = 'converted_' + filename
-
-# from pydub import AudioSegment as am
-# #sound = am.from_file(filename, format='wav', frame_rate=44100)
-# sound = am.from_file(filename, format='wav', frame_rate=rate)
-# sound = sound.set_frame_rate(16000)
-# sound.export(new_filename, format='wav')
-
-# #rate after conversion
-# print("rate after conversion")
-# w = wave.open(new_filename, 'r')
-# rate = w.getframerate()
-# print(rate)
-# buffer = w.readframes(frames)
-# print("Buffer type of the file is")
-# type(buffer)
+if (rate != 16000):
+    print("The sampling rate is not equal to 16000Hz hence converting")
+    converted_filename = 'converted_' + filename
+    
+    from pydub import AudioSegment as am
+    #sound = am.from_file(filename, format='wav', frame_rate=44100)
+    sound = am.from_file(filename, format='wav', frame_rate=rate)
+    sound = sound.set_frame_rate(16000)
+    sound.export(converted_filename, format='wav')
+    
+    #rate after conversion
+    print("sampling rate after conversion")
+    w = wave.open(converted_filename, 'r')
+    rate = w.getframerate()
+    print(rate)
+    buffer = w.readframes(frames)
+    print("Buffer type of the file is")
+    print(type(buffer))
+    filename = converted_filename
 
 #the buffer is a byte array, whereas DeepSpeech model expects 16-bit int array. Let’s convert it:
 import numpy as np
@@ -91,7 +94,12 @@ text = model.stt(data16)
 
 #write to a file
 #file1 = open("IMF_Georgieva_COVID-19.txt","w")#write mode 
-#file1 = open("obama_wh_last_speech.txt","w")#write mode 
-file1 = open("obama_farewell_speech_using_Local_DeepSpeech_Model.txt","w")#write mode 
+#file1 = open("obama_wh_last_speech.txt","w")#write mode
+#remove extension from the filename before converting to text file
+import os
+filename1 = os.path.splitext(filename)
+filename2 = filename1[0]
+filename3 = filename2 + "_" + "using_Local_DeepSpeech_Model"+".txt"
+file1 = open(filename3,"w")#write mode 
 file1.write(text) 
 file1.close() 

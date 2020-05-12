@@ -7,8 +7,8 @@ import re
 
 import os
 
-#fileName = "Donald_Trumps_Victory_Speech_using_Local_DeepSpeech_Model.txt"
-fileName = "obama_farewell_speech_using_Local_DeepSpeech_Model.txt"
+#fileName = "What_is_Happiness_Sadhguru_using_Local_DeepSpeech_Model.txt"
+fileName = "converted_What_is_Happiness_Sadhguru_imitate_1_using_Local_DeepSpeech_Model.txt"
 
 file = open(fileName,"r", encoding = 'utf-8')
 
@@ -221,25 +221,27 @@ df_score_sentiment = pd.DataFrame(list(zip(sentiment_type_list, sentiment_type_s
 df_score_sentiment
 
 
+#emotion plotting
 import matplotlib.pyplot as plt
 fig = plt.figure(figsize=(20,10))
 ax = fig.add_axes([0,0,1,1])
-ax.set_xlabel('Emotion Types', fontsize = 25)
-ax.set_ylabel('Scores', fontsize = 20)
-plt.rcParams.update({'font.size': 22})
+ax.set_xlabel('Emotion Types', fontsize = 40)
+ax.set_ylabel('Scores', fontsize = 40)
+plt.rcParams.update({'font.size': 40})
 plt.xticks(rotation=45)
 #plt.figure(figsize=(20,10))
 ax.bar(emotion_type_lst,emotion_type_score)
 plt.show();
 
 
-import matplotlib.pyplot as plt
-fig = plt.figure(figsize=(20,10))
-ax = fig.add_axes([0,0,1,1])
-ax.set_xlabel('Sentiment Types', fontsize = 25)
-ax.set_ylabel('Scores', fontsize = 20)
-plt.rcParams.update({'font.size': 22})
-plt.xticks(rotation=45)
-#plt.figure(figsize=(20,10))
-ax.bar(sentiment_type_list,sentiment_type_score)
-plt.show();
+#sentiment plotting
+# import matplotlib.pyplot as plt
+# fig = plt.figure(figsize=(20,10))
+# ax = fig.add_axes([0,0,1,1])
+# ax.set_xlabel('Sentiment Types', fontsize = 25)
+# ax.set_ylabel('Scores', fontsize = 20)
+# plt.rcParams.update({'font.size': 22})
+# plt.xticks(rotation=45)
+# #plt.figure(figsize=(20,10))
+# ax.bar(sentiment_type_list,sentiment_type_score)
+# plt.show();
