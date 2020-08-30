@@ -50,6 +50,16 @@ Sample002 = data_path + '\\Sample002'
 Sample003 = data_path + '\\Sample003'
 Sample004 = data_path + '\\Sample004'
 Sample005 = data_path + '\\Sample005'
+Sample006 = data_path + '\\Sample006'
+Sample007 = data_path + '\\Sample007'
+Sample009 = data_path + '\\Sample009'
+Sample010 = data_path + '\\Sample010'
+Sample011 = data_path + '\\Sample011'
+Sample012 = data_path + '\\Sample012'
+Sample013 = data_path + '\\Sample013'
+Sample014 = data_path + '\\Sample014'
+Sample015 = data_path + '\\Sample015'
+Sample016 = data_path + '\\Sample016'
 
 X=[] #for features
 Z=[] #for labels
@@ -74,10 +84,20 @@ make_train_data('002',Sample002)
 make_train_data('003',Sample003)
 make_train_data('004',Sample004)
 make_train_data('005',Sample005)
+make_train_data('006',Sample006)
+make_train_data('007',Sample007)
+make_train_data('009',Sample009)
+make_train_data('010',Sample010)
+make_train_data('011',Sample011)
+make_train_data('012',Sample012)
+make_train_data('013',Sample013)
+make_train_data('014',Sample014)
+make_train_data('015',Sample015)
+make_train_data('016',Sample016)
 
 
 #no of class labels
-n = 5
+n = 15
 
 #X=np.array(X)
 #X=X/255
@@ -114,23 +134,23 @@ no_of_epochs=10
 model.fit(x_train,y_train, validation_data=(x_test,y_test), epochs=no_of_epochs)
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-acc = model.history['acc']
-val_acc = model.history['val_acc']
-loss = model.history['loss']
-val_loss = model.history['val_loss']
-epochs = range(1, len(acc) + 1)
-plt.plot(epochs, acc, 'bo', label='Training acc')
-plt.plot(epochs, val_acc, 'b', label='Validation acc')
-plt.title('Training and validation accuracy')
-plt.legend()
-plt.figure()
-plt.plot(epochs, loss, 'bo', label='Training loss')
-plt.plot(epochs, val_loss, 'b', label='Validation loss')
-plt.title('Training and validation loss')
-plt.legend()
-plt.show()
+# acc = model.history['acc']
+# val_acc = model.history['val_acc']
+# loss = model.history['loss']
+# val_loss = model.history['val_loss']
+# epochs = range(1, len(acc) + 1)
+# plt.plot(epochs, acc, 'bo', label='Training acc')
+# plt.plot(epochs, val_acc, 'b', label='Validation acc')
+# plt.title('Training and validation accuracy')
+# plt.legend()
+# plt.figure()
+# plt.plot(epochs, loss, 'bo', label='Training loss')
+# plt.plot(epochs, val_loss, 'b', label='Validation loss')
+# plt.title('Training and validation loss')
+# plt.legend()
+# plt.show()
 
 
 ###############################################
