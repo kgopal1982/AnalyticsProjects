@@ -1,5 +1,6 @@
 ###################################
-#Here, we are performing Emotion Analysis using NRC lexicon
+# This will be called from DepecheMood_Analysis.py file
+# This returns the score of the emotions
 ###################################
 from nltk import tokenize
 import pandas as pd
@@ -8,7 +9,7 @@ import re
 import os
 
 #fileName = "What_is_Happiness_Sadhguru_using_Local_DeepSpeech_Model.txt"
-fileName = "converted_What_is_Happiness_Sadhguru_imitate_1_using_Local_DeepSpeech_Model.txt"
+fileName = "/home/krishna/datas/video_analysis/CallHome/4507_Speaker2_Using_DeepSpeech_Model.txt"
 
 file = open(fileName,"r", encoding = 'utf-8')
 
@@ -231,7 +232,20 @@ plt.rcParams.update({'font.size': 40})
 plt.xticks(rotation=45)
 #plt.figure(figsize=(20,10))
 ax.bar(emotion_type_lst,emotion_type_score)
+#plt.savefig('/home/krishna/datas/video_analysis/CallHome/4390_Speaker1_Using_DeepSpeech_Model.jpg')
 plt.show();
+
+#emotion plotting
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(20,10))
+ax = fig.add_axes([0,0,1,1])
+plt.xlabel('Emotion Types', fontsize = 40)
+plt.ylabel('Scores', fontsize = 40)
+plt.rcParams.update({'font.size': 40})
+plt.xticks(rotation=45)
+#plt.figure(figsize=(20,10))
+ax.bar(emotion_type_lst,emotion_type_score)
+plt.savefig('/home/krishna/datas/video_analysis/CallHome/4390_Speaker1_Using_DeepSpeech_Model.jpg')
 
 
 #sentiment plotting

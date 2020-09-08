@@ -43,8 +43,16 @@ model.enableDecoderWithLM(lm_file_path, trie_file_path, lm_alpha, lm_beta)
 
 import wave
 #fileWithoutExtn = 'What_is_Happiness_Sadhguru'
-fileWithoutExtn = 'What_is_Happiness_Sadhguru_imitate_1'
-filename = fileWithoutExtn + ".wav"
+datafilepath = '/home/krishna/datas/video_analysis/CallHome/'
+
+# fileWithoutExtn = '/CallHome/4390_Speaker1'
+# filename = fileWithoutExtn + ".mp3"
+
+#run the below command from the path where the mp3 file is present to convert to .wav file
+#ffmpeg -i 4390_Speaker1.mp3 -vn -acodec pcm_s16le -ac 1 -ar 16000 -f wav 4390_Speaker1.wav
+
+filename = datafilepath + '4507_Speaker2' + '.wav'
+filename_without_extn = datafilepath + '4507_Speaker2'
 
 w = wave.open(filename, 'r')
 rate = w.getframerate()
@@ -64,25 +72,25 @@ print(type(buffer))
 
 
 #run the below code if the sampling rate of the file is dfferent than 16000 Hz
-if (rate != 16000):
-    print("The sampling rate is not equal to 16000Hz hence converting")
-    converted_filename = 'converted_' + filename
+# if (rate != 16000):
+#     print("The sampling rate is not equal to 16000Hz hence converting")
+#     converted_filename = 'converted_' + filename
     
-    from pydub import AudioSegment as am
-    #sound = am.from_file(filename, format='wav', frame_rate=44100)
-    sound = am.from_file(filename, format='wav', frame_rate=rate)
-    sound = sound.set_frame_rate(16000)
-    sound.export(converted_filename, format='wav')
+#     from pydub import AudioSegment as am
+#     #sound = am.from_file(filename, format='wav', frame_rate=44100)
+#     sound = am.from_file(filename, format='wav', frame_rate=rate)
+#     sound = sound.set_frame_rate(16000)
+#     sound.export(converted_filename, format='wav')
     
-    #rate after conversion
-    print("sampling rate after conversion")
-    w = wave.open(converted_filename, 'r')
-    rate = w.getframerate()
-    print(rate)
-    buffer = w.readframes(frames)
-    print("Buffer type of the file is")
-    print(type(buffer))
-    filename = converted_filename
+#     #rate after conversion
+#     print("sampling rate after conversion")
+#     w = wave.open(converted_filename, 'r')
+#     rate = w.getframerate()
+#     print(rate)
+#     buffer = w.readframes(frames)
+#     print("Buffer type of the file is")
+#     print(type(buffer))
+#     filename = converted_filename
 
 #the buffer is a byte array, whereas DeepSpeech model expects 16-bit int array. Let’s convert it:
 import numpy as np
@@ -99,7 +107,7 @@ text = model.stt(data16)
 import os
 filename1 = os.path.splitext(filename)
 filename2 = filename1[0]
-filename3 = filename2 + "_" + "using_Local_DeepSpeech_Model"+".txt"
+filename3 = filename2 + "_" + "Using_DeepSpeech_Model"+".txt"
 file1 = open(filename3,"w")#write mode 
 file1.write(text) 
 file1.close() 
